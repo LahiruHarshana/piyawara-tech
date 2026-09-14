@@ -36,3 +36,23 @@
 
 /* Keep the primary hero message visible on first paint. */
 .hero .reveal{opacity:1;transform:none;transition:none}
+
+/* Inner pages — same visual language, no design changes */
+.page-intro{padding-top:120px;border-top:0}
+.page-intro .intro-copy h2{font-size:clamp(3.2rem,7vw,6rem)}
+.content-block{max-width:640px;color:var(--muted);line-height:1.85;font-size:15px;margin:28px 0 0}
+.content-block p{margin:0 0 18px}
+.content-block p:last-child{margin-bottom:0}
+.capability-grid.capability-grid-2{grid-template-columns:repeat(2,1fr)}
+.nav nav a.active{color:var(--white)}
+.facts-wrap{margin-top:0}
+.facts-center{justify-content:center;margin-top:42px}
+.cta-inline{display:flex;gap:22px;flex-wrap:wrap;justify-content:center;margin-top:40px}
+.cta-inline-left{justify-content:flex-start;margin-top:34px}
+.footer-stack{width:100%;display:flex;flex-direction:column;gap:16px}
+.footer-top{width:100%;display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap}
+.footer-bottom{width:100%;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.footer-nav{display:flex;gap:24px;flex-wrap:wrap}
+.contact-page{padding-top:110px}
+.contact-page-end{padding-bottom:140px}
+@media(max-width:760px){.page-intro{padding-top:90px}.capability-grid.capability-grid-2{grid-template-columns:1fr}.footer-top,.footer-bottom{flex-direction:column}.footer-nav{gap:16px}}
