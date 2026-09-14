@@ -38,7 +38,7 @@ export default function Home() {
     </header>
     <main id="top">
       <section className="hero shell">
-        <div className="hero-image" aria-hidden="true"><img src="/hero-workspace.png" alt="" /><div className="hero-image-shade" /></div>
+        <div className="hero-image" aria-hidden="true"><img src="/hero.webp" alt="" /><div className="hero-image-shade" /></div>
         <div className="eyebrow reveal"><span className="status-dot" /> BUILDING WHAT MOVES BUSINESS FORWARD</div>
         <h1 className="reveal">Technology that<br /><span>moves you forward.</span></h1>
         <p className="hero-copy reveal">Piyawara Tech builds mobile apps, web systems, and custom software for people and businesses ready to do more.</p>
